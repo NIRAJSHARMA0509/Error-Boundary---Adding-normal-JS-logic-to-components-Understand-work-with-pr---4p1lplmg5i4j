@@ -2,8 +2,11 @@ import React, { useState } from "react";
 
 const Component = (props) => {
     
-    const [error, setError] = useState(false);
+    const [error, setError] = useState(props.change);
 
+      
+      
+  
   return (
     <>
     {    
